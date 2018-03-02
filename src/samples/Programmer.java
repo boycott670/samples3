@@ -22,7 +22,7 @@ public class Programmer {
 	public String toString()
 	{
 		// TODO Auto-generated method stub
-		return name;
+		return name.toUpperCase();
 	}
 	
 }

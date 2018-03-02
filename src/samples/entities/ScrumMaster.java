@@ -15,7 +15,7 @@ public class ScrumMaster extends Programmer
 	public String toString()
 	{
 		// TODO Auto-generated method stub
-		return String.format("%s[%s]", super.toString(), getLovesNumber().getName());
+		return String.format("%s[%s]", super.toString(), getLovesNumber().getName().toUpperCase());
 	}
 
 }

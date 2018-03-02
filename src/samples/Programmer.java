@@ -17,5 +17,12 @@ public class Programmer {
 	public Class<? extends Number> getLovesNumber() {
 		return lovesNumber;
 	}
+
+	@Override
+	public String toString()
+	{
+		// TODO Auto-generated method stub
+		return String.format("[%s%c]", name, lovesNumber.getClass().getName().charAt(0));
+	}
 	
 }

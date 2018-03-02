@@ -21,7 +21,6 @@ public class Programmer {
 	@Override
 	public String toString()
 	{
-		// TODO Auto-generated method stub
 		return String.format("[%s%c]", name, lovesNumber.getClass().getName().charAt(0));
 	}
 	

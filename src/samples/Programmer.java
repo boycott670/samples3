@@ -21,7 +21,7 @@ public class Programmer {
 	@Override
 	public String toString()
 	{
-		return String.format("[%s%c]", name, lovesNumber.getClass().getName().charAt(0));
+		return name.toUpperCase();
 	}
 	
 }

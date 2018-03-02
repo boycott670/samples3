@@ -11,4 +11,11 @@ public class ScrumMaster extends Programmer
 		// TODO Auto-generated constructor stub
 	}
 
+	@Override
+	public String toString()
+	{
+		// TODO Auto-generated method stub
+		return String.format("%s[%s]", super.toString(), getLovesNumber().getName());
+	}
+
 }
